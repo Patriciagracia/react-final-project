@@ -14,6 +14,7 @@ export default function App() {
           <a
             href="https://github.com/Patriciagracia/react-final-project"
             target="_blank"
+            rel="noreferrer"
           >
             {" "}
             Open-sourced on Github.
