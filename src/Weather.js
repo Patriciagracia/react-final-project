@@ -12,7 +12,7 @@ export default function Weather(props) {
       ready: true,
       temperature: Math.round(response.data.temperature.current),
       humidity: Math.round(response.data.temperature.humidity),
-      wind: response.data.wind.speed,
+      wind: Math.round(response.data.wind.speed),
       city: response.data.city,
       description: response.data.condition.description,
       iconUrl: response.data.condition.icon_url,

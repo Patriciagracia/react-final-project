@@ -28,10 +28,11 @@
   font-size: 64px;
 }
 .Weather img {
-  height: 64px;
+  height: 76px;
   margin-right: 10px;
   display: inline-block;
-  width: 64px;
+  width: 76px;
+  margin-top: 10px;
 }
 .Weather .unit {
   font-size: 16px;
