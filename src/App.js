@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity="Tokyo" />
+        <Weather defaultCity="Mahón" />
         <footer>
           {" "}
           This project is created by Patricia Gracia.{" "}
