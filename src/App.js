@@ -10,14 +10,23 @@ export default function App() {
         <Weather defaultCity="Mahón" />
         <footer>
           {" "}
-          This project is created by Patricia Gracia.{" "}
+          👩🏻‍💻 This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/patricia-gracia/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Patricia Gracia{" "}
+          </a>{" "}
+          and is open-sourced on
           <a
             href="https://github.com/Patriciagracia/react-final-project"
             target="_blank"
             rel="noreferrer"
           >
             {" "}
-            Open-sourced on Github.
+            Github.
           </a>
         </footer>
       </div>
